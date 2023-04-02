@@ -1,6 +1,6 @@
 # SQL murder mystery
 
-I have solved the SQL Murder Mystery presented by [knightlab] (https://mystery.knightlab.com/). This has been such a fun way if practising SQL queries, getting more comfortable with joins, and, last but not least, solving a mystery!
+I have solved the SQL Murder Mystery presented by knightlab (https://mystery.knightlab.com/). This has been such a fun way if practising SQL queries, getting more comfortable with joins, and, last but not least, solving a mystery!
 
 This is a walkthrough on how I solved the challenge:
 
