@@ -83,11 +83,14 @@ SELECT i.transcript
  ON i.person_id = p.id
 WHERE name = 'Jeremy Bowers';
 ```
-![Jeremy transcript],(7.jpg)
+![Jeremy transcript](7.jpg)
 
 To get the hang of this we have to look in different tables again:
+
 •	drivers_license contains personal and license information like: gender, height, hair color, car make and model
+
 •	facebook_event_check_in tells us who attended different events
+
 •	and, finally, to find out the woman’s name, I also joined the person table
 
 
