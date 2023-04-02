@@ -44,9 +44,13 @@ WHERE person_id IN ( 14887, 16371);
 ![transcript](4.jpg)
 
 Now we know that our killer is a man who is gold member with the ‘Get Fit Now’ Gym and was at the gym on 19th January. We know part of his membership number, and we have a partial plate. Having found out this, I decided I have enough information to go and look for the killer by joining multiple tables:
+
 •	get_fit_now_member contains information about membership number and status 
+
 •	drivers_license contains personal and license information like: gender and car plate number
+
 •	get_fit_now_check_in tells us when each member visited the gym
+
 •	finally, in order to be able join the drivers_licence table with the get_fit_now_member I used the person table (the middle man 😎)
 
 ```SQL
